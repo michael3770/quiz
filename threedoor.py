@@ -1,7 +1,7 @@
-def threeDoorA(trial):                    #主持人事先知道的情况
-	import random
+def threeDoorA(trial):                        #主持人事先知道的情况
+	import random  
 	hit = 0
-	doors = ['s','s','c']                   #1，2号门是羊，3号门是车
+	doors = ['s','s','c']                     #1，2号门是羊，3号门是车
 	for i in range(trial):                                 
 		host = [0,1]                          #主持人只会选羊            
 		tester = [0,1,2]
